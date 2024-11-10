@@ -5,32 +5,51 @@
 <MudDialogProvider />
 <MudSnackbarProvider />
 <MudLayout>
+    <MudHidden Breakpoint="Breakpoint.Xl" Invert="true">
     <MudAppBar Elevation="1">
         <MudNavLink Href="/" Match="NavLinkMatch.All">
-        <div class="d-flex flex-grow-1 align-center">
-        
-                <MudText Typo="Typo.h5" Class="d-flex justify-end ml-5">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
-        
-        </div>
+        <MudText Typo="Typo.h5" Class="d-flex justify-start ml-3">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
         </MudNavLink>
-        <MudContainer Class="justify-end mr-5" Style="position:sticky; right:0%">
-        <MudGrid Class="justify-end" Spacing="20">
-            <MudItem>
-                <MudNavLink Class="ml-20" Href="programming" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Code">Programming</MudNavLink>
-            </MudItem>
-            <MudItem>
-                <MudNavLink Href="music" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MusicNote">Music</MudNavLink>
-            </MudItem>
-            <MudItem>
-                <MudNavLink Href="about" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AccountCircle">About</MudNavLink>
-            </MudItem>
-        </MudGrid>
-        </MudContainer>
-
-
-
-        <!--<MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" Edge="Edge.End" OnClick="@DarkModeToggle" />-->
+        
+        <MudNavLink Class="ml-20" Href="programming" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Code">Programming</MudNavLink>
+        <MudNavLink Href="music" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MusicNote">Music</MudNavLink>
+        <MudNavLink Href="about" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AccountCircle">About</MudNavLink>
+        
     </MudAppBar>
+    </MudHidden>
+
+    <MudSwipeArea OnSwipeEnd="@OnSwipeEnd" Style="width: 100%;">
+        <MudDrawer @bind-Open="@_drawerOpen" Fixed="false" Elevation="1" Variant="@DrawerVariant.Persistent" Color="Color.Primary">
+            <MudDrawerHeader>
+                <MudText Typo="Typo.h6">My App</MudText>
+            </MudDrawerHeader>
+            <MudNavMenu>
+                <MudNavLink Class="ml-20" Href="programming" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Code">Programming</MudNavLink>
+                <MudNavLink Href="music" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MusicNote">Music</MudNavLink>
+                <MudNavLink Href="about" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AccountCircle">About</MudNavLink>
+            </MudNavMenu>
+        </MudDrawer>
+    </MudSwipeArea>
+
+
+
+
+
+
+
+
+    <!--
+
+        <MudAppBar Elevation="1">
+        <MudNavLink Href="/" Match="NavLinkMatch.All">
+                <MudText Typo="Typo.h5" Class="d-flex justify-start ml-3">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
+            </MudNavLink>
+        </MudAppBar>
+        <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+            <NavMenu />
+        </MudDrawer>
+        </MudHidden>    -->
+
     <MudMainContent Class="mt-16 pa-4">
         @Body
     </MudMainContent>
@@ -62,15 +81,36 @@
     }
 
 
-    private void DrawerToggle()
+
+
+
+    public void OnSwipeEnd(SwipeEventArgs e)
+
     {
-        _drawerOpen = !_drawerOpen;
+
+        if (e.SwipeDirection == SwipeDirection.LeftToRight && !_drawerOpen)
+
+        {
+
+            _drawerOpen = true;
+
+            StateHasChanged();
+
+        }
+
+        else if (e.SwipeDirection == SwipeDirection.RightToLeft && _drawerOpen)
+
+        {
+
+            _drawerOpen = false;
+
+            StateHasChanged();
+
+        }
+
     }
 
-    private void DarkModeToggle()
-    {
-        _isDarkMode = !_isDarkMode;
-    }
+
 
     private readonly PaletteLight _lightPalette = new()
     {
