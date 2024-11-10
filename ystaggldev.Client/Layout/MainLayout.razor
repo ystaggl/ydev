@@ -4,7 +4,9 @@
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
+<MudSwipeArea OnSwipeEnd="@OnSwipeEnd" Style="width: 100%; height: 100%; white-space: nowrap">
 <MudLayout>
+    
     <MudHidden Breakpoint="Breakpoint.Xl" Invert="true">
     <MudAppBar Elevation="1">
         <MudNavLink Href="/" Match="NavLinkMatch.All">
@@ -18,45 +20,22 @@
     </MudAppBar>
     </MudHidden>
 
-    <MudSwipeArea OnSwipeEnd="@OnSwipeEnd" Style="width: 100%;">
-        <MudDrawer @bind-Open="@_drawerOpen" Fixed="false" Elevation="1" Variant="@DrawerVariant.Persistent" Color="Color.Primary">
+    
+        <MudDrawer @bind-Open="@_drawerOpen" Fixed="true" Elevation="1" Variant="@DrawerVariant.Persistent">
             <MudDrawerHeader>
-                <MudText Typo="Typo.h6">My App</MudText>
-            </MudDrawerHeader>
-            <MudNavMenu>
-                <MudNavLink Class="ml-20" Href="programming" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Code">Programming</MudNavLink>
-                <MudNavLink Href="music" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MusicNote">Music</MudNavLink>
-                <MudNavLink Href="about" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AccountCircle">About</MudNavLink>
-            </MudNavMenu>
-        </MudDrawer>
-    </MudSwipeArea>
-
-
-
-
-
-
-
-
-    <!--
-
-        <MudAppBar Elevation="1">
-        <MudNavLink Href="/" Match="NavLinkMatch.All">
                 <MudText Typo="Typo.h5" Class="d-flex justify-start ml-3">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
-            </MudNavLink>
-        </MudAppBar>
-        <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+            </MudDrawerHeader>
             <NavMenu />
         </MudDrawer>
-        </MudHidden>    -->
-
+    
     <MudMainContent Class="mt-16 pa-4">
         @Body
     </MudMainContent>
+    
 </MudLayout>
 
 <Footer />
-
+</MudSwipeArea>
 <div id="blazor-error-ui">
     An unhandled error has occurred.
     <a href="" class="reload">Reload</a>
@@ -64,6 +43,7 @@
 </div>
 
 @code {
+
     private bool _drawerOpen = false;
     private bool _isDarkMode = true;
     private MudTheme? _theme = null;
@@ -101,6 +81,8 @@
         else if (e.SwipeDirection == SwipeDirection.RightToLeft && _drawerOpen)
 
         {
+
+
 
             _drawerOpen = false;
 
