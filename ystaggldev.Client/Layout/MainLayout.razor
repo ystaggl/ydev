@@ -19,6 +19,13 @@
         
     </MudAppBar>
     </MudHidden>
+    <MudHidden Breakpoint="Breakpoint.Xl">
+        <MudAppBar Elevation="1">
+                <MudNavLink Href="/" Match="NavLinkMatch.All">
+                    <MudText Typo="Typo.h5" Class="d-flex justify-center ml-3">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
+                </MudNavLink>
+            </MudAppBar>
+    </MudHidden>
 
     
         <MudDrawer @bind-Open="@_drawerOpen" Fixed="true" Elevation="1" Variant="@DrawerVariant.Persistent">
