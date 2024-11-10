@@ -4,7 +4,7 @@
 <MudPopoverProvider />
 <MudDialogProvider />
 <MudSnackbarProvider />
-<MudSwipeArea OnSwipeEnd="@OnSwipeEnd" Style="width: 100%; height: 100%; white-space: nowrap">
+<MudSwipeArea OnSwipeEnd="@OnSwipeEnd" Style="width: 100%; height: 100%">
 <MudLayout>
     
     <MudHidden Breakpoint="Breakpoint.Xl" Invert="true">
@@ -23,7 +23,9 @@
     
         <MudDrawer @bind-Open="@_drawerOpen" Fixed="true" Elevation="1" Variant="@DrawerVariant.Persistent">
             <MudDrawerHeader>
-                <MudText Typo="Typo.h5" Class="d-flex justify-start ml-3">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
+                <MudNavLink Href="/" Match="NavLinkMatch.All">
+                <MudText Typo="Typo.h5">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
+                </MudNavLink>
             </MudDrawerHeader>
             <NavMenu />
         </MudDrawer>

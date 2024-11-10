@@ -1,4 +1,4 @@
-﻿<div style="position:fixed; bottom:20px; left:20px" class="d-flex align-end">
+﻿<div style="position:fixed; bottom:20px; left:0%" class="d-flex align-start">
     <MudContainer>
         <MudGrid Class="mud-container mud-container-maxwidth-lg mud-container--gutters mt-16">
             <MudItem>
@@ -8,10 +8,13 @@
                 <MudIcon class="mt-2" Icon="@Icons.Custom.Brands.GitHub" Title="GitHub"></MudIcon>
             </a>
             </MudItem>
+
+            <MudHidden Breakpoint="Breakpoint.Xl" Invert="true">
             <MudItem Style="position:fixed; bottom:9%; right:5%" Class="d-flex align-start">
                 <MudText Align="Align.Left" Class="d-flex justify-end flex-grow-1 mt-20 gap-4" Typo="Typo.h5">Contact me!</MudText>
 
             </MudItem>
+            </MudHidden>
         </MudGrid>
     </MudContainer>
 </div>
