@@ -1,0 +1,27 @@
+﻿<MudStack Row="true">
+    <MudText Typo="Typo.h4" GutterBottom="true">@namestart<span class="mud-secondary-text">@namehighlight</span></MudText>
+    <a href="@link">
+        <MudIcon class="mt-2" Icon="@Icons.Custom.Brands.GitHub" Title="GitHub"></MudIcon>
+    </a>
+    <!-- I don't like this for now
+    <MudText Typo="Typo.h4" Class="d-flex justify-right" Align="Align.Right">@year</MudText>
+    -->
+</MudStack>
+
+<MudStack Row="true">
+    <MudText Typo="Typo.body1" GutterBottom="true">
+        @ChildContent
+    </MudText>
+    <MudText>
+        
+    </MudText>
+</MudStack>
+
+
+@code {
+    [Parameter] public string namestart { get; set; } = "Proj";
+    [Parameter] public string namehighlight { get; set; } = "ect";
+    [Parameter] public string link { get; set; } = "https://github.com/ystaggl/";
+    [Parameter] public string year { get; set; } = "";
+    [Parameter] public RenderFragment ChildContent { get; set; }
+}
