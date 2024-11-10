@@ -1,20 +1,18 @@
-﻿<div style="position:fixed; bottom:20px; left:0%" class="d-flex align-start">
-    <MudContainer>
-        <MudGrid Class="mud-container mud-container-maxwidth-lg mud-container--gutters mt-16">
+﻿ <MudContainer Elevation="1" Style="top: auto; bottom: 10%" Fixed="true">
+    <MudStack Row="true">
             <MudItem>
-            <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-20 gap-4" Typo="Typo.h4">ystaggl</MudText>
-            <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-2 gap-4" GutterBottom="true">amateur software developer and wannabe musician</MudText>
+                <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-20 gap-4" Typo="Typo.h4">ystaggl</MudText>
+                <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-2 gap-4" GutterBottom="true">amateur software developer and wannabe musician</MudText>
             <a href="https://github.com/ystaggl">
                 <MudIcon class="mt-2" Icon="@Icons.Custom.Brands.GitHub" Title="GitHub"></MudIcon>
             </a>
             </MudItem>
 
             <MudHidden Breakpoint="Breakpoint.Xl" Invert="true">
-            <MudItem Style="position:fixed; bottom:9%; right:5%" Class="d-flex align-start">
-                <MudText Align="Align.Left" Class="d-flex justify-end flex-grow-1 mt-20 gap-4" Typo="Typo.h5">Contact me!</MudText>
+            <MudItem Style="position:absolute; right:5%" Class="d-flex justify-end align-end">
+                <MudText Align="Align.Right" Class="d-flex justify-end flex-grow-1 mt-20 gap-4" Typo="Typo.h5">Contact me!</MudText>
 
             </MudItem>
             </MudHidden>
-        </MudGrid>
-    </MudContainer>
-</div>
+    </MudStack>
+</MudContainer>

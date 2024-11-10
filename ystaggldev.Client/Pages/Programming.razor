@@ -5,7 +5,7 @@
 
 
 <MudContainer Class="d-flex mt-10">
-    <MudText Typo="Typo.h3" GutterBottom="true">Program<span class="mud-secondary-text">ming</span></MudText>
+    <MudText Typo="Typo.h3" GutterBottom="true">Proj<span class="mud-secondary-text">ects</span></MudText>
 </MudContainer>
 
 <MudContainer Class="mt-5">
@@ -22,7 +22,7 @@
             PipPy is a program written in python that lets you run desktop windows in Picture-in-Picture mode, similar to the feature in most browsers that you might see while watching a
             YouTube video. This is most useful for
             watching local video in a desktop video player.
-            When running, it hides in the background waiting for a hotkey to be pressed. Once a hotkey is pressed, it manipulates the Style Flags of the target window
+            When running, it hides in the background waiting for a hotkey to be pressed. It then manipulates the Style Flags of the target window
             using WinApi to make it floating, borderless, and pinned to the top of the screen.
         </ProjectShowcase>
     </MudItem>
@@ -32,6 +32,19 @@
             As the API can only be used by one program at a time, it takes full control of it. It then acts somewhat like a message broker, allowing other programs to issue
             lighting change commands over a local port, translating those commands and then sending them to the Logitech Lighting API. This means multiple different programs
             can make changes to the lighting at the same time without conflicts over control of the API.
+        </ProjectShowcase>
+    </MudItem>
+    <MudItem>
+        <ProjectShowcase namestart="Rocket" namehighlight="XP" link="https://github.com/ystaggl/RocketXP" year="2022">
+            Now, this one needs a disclaimer that I wouldn't make this today.
+            But back when I was younger and deeply into the game <span class="mud-secondary-text">Rocket League</span>,
+            I discovered an exploit for automatically farming infinite XP, and therefore items that could be traded with other players for premium currency or even <span class="mud-secondary-text">real money</span> (the latter of which I did
+                <span class="mud-secondary-text">not</span> do).
+            I'm not showcasing this because I'm proud of using the script. Rather, I'm proud of the ambition I showed, in finding my own
+            exploit that can theoretically generate real money in one of the largest live service games in the world at only <span class="mud-secondary-text">17</span> years old.
+            The script exploited the fact that you can force yourself into a 1v1 match on official servers against another account in your steam friends list by waiting for their opponent to leave and then joining their match.
+            Once you're in a 1v1 against another account you own, there's nobody around to report you for scripting, so the two bots can simply take turns forfeiting the match, generating XP.
+
         </ProjectShowcase>
     </MudItem>
 </MudGrid>
