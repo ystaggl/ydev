@@ -1,7 +1,9 @@
-﻿<MudNavMenu>
-    <MudNavLink Href="programming" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Code">Programming</MudNavLink>
-    <MudNavLink Href="music" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MusicNote">Music</MudNavLink>
-    <MudNavLink Href="about" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AccountCircle">About</MudNavLink>
-</MudNavMenu>
+﻿<MudNavLink Class="@Class" Href="projects" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Code">Projects</MudNavLink>
+<MudNavLink Class="@Class" Href="music" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.MusicNote">Music</MudNavLink>
+<MudNavLink Class="@Class" Href="about" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.AccountCircle">About</MudNavLink>
 
 
+@code {
+    [Parameter]
+    public string Class { get; set; } = "";
+}
