@@ -1,0 +1,35 @@
+﻿@inject IJSRuntime js;
+
+<MudStack Row="true">
+    <MudText Typo="Typo.h4" GutterBottom="true" Class="mt-2">
+        @namestart<span class="mud-secondary-text">@namehighlight</span>
+    </MudText>
+    <button class="btn btn-primary" @onclick="PlayAudioFile"><MudIcon Icon="@Icons.Material.Filled.PlayArrow" Size="Size.Large" Title="Play"></MudIcon></button>
+</MudStack>
+
+<MudStack Row="true">
+    <MudText Typo="Typo.body1" GutterBottom="true">
+        @ChildContent
+    </MudText>
+    <MudText>
+
+    </MudText>
+</MudStack>
+
+
+
+<audio id="player">
+    <source id="playerSource" src="" />
+</audio>
+
+@code {
+    [Parameter] public string namestart { get; set; } = "Proj";
+    [Parameter] public string namehighlight { get; set; } = "ect";
+    [Parameter] public string audiosource { get; set; } = "";
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    async Task PlayAudioFile()
+    {
+        await js.InvokeVoidAsync("PlayAudioFile", audiosource);
+    }
+}
+

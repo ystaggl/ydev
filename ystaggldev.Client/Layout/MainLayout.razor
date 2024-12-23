@@ -39,6 +39,22 @@
     <a class="dismiss">🗙</a>
 </div>
 
+
+<!--I feel like this isn't the right place for this but I don't have an index.html and this seems to be the closest thing to it (also it works) Reference: https://www.appvnext.com/blog/2020/4/20/playing-audio-files-in-a-blazor-application-->
+<script>
+        window.PlayAudioFile = (src) => {
+            var audio = document.getElementById('player');
+            if (audio != null) {
+                var audioSource = document.getElementById('playerSource');
+                if (audioSource != null) {
+                    audioSource.src = src;
+                    audio.load();
+                    audio.play();
+                }
+            }
+        }
+    </script>
+
 @code {
     private bool _drawerOpen = false;
     private bool _isDarkMode = true;
