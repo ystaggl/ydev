@@ -25,9 +25,11 @@
             <NavMenu />
         </MudNavMenu>
     </MudDrawer>
-    
+        
     <MudMainContent Class="mt-16 pa-4" Style="min-height: 70vh">
-        @Body
+            @Body
+            <!---<div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0;"><img src="/Images/background.png" /></div>-->
+        
     </MudMainContent>
     <Footer />
 </MudLayout>
@@ -117,11 +119,11 @@
     {
         Primary = "#7e6fff",
         Surface = "#1e1e2d",
-        Background = "#1a1a27",
+            Background = "#212227",
         BackgroundGray = "#151521",
         AppbarText = "#92929f",
-        AppbarBackground = "rgba(26,26,39,0.8)",
-        DrawerBackground = "#1a1a27",
+            AppbarBackground = "1c2127",
+            DrawerBackground = "#212227",
         ActionDefault = "#74718e",
         ActionDisabled = "#9999994d",
         ActionDisabledBackground = "#605f6d4d",
@@ -140,6 +142,7 @@
         TableLines = "#33323e",
         Divider = "#292838",
         OverlayLight = "#1e1e2d80",
+            Secondary = "#be1c56",
         };
 
     public string DarkLightModeButtonIcon => _isDarkMode switch

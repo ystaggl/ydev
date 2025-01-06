@@ -6,14 +6,18 @@
 @using System.Net.Http
 @inject HttpClient HttpClient
 @using System.Text.RegularExpressions
-
 <PageTitle>@title</PageTitle>
 <HeadContent>
     <meta name="description" content="@description">
     <link rel="icon" href="/favicon.ico">
 </HeadContent>
 
-
+<style>
+    html, body {
+        background: url('/Images/background.png');
+        background-size: cover;
+    }
+</style>
 <MudSpacer />
 
 <MudContainer Class="d-flex align-end justify-center" Style="height:30vh">
@@ -24,6 +28,7 @@
     <MudText style="text-align: center" Typo="Typo.h4">check out my <span class="mud-secondary-text align-center"><Typewriter Builder="@typewriter" /></span></MudText>
 </MudContainer>
 <MudSpacer />
+
 
 @code {
     private string title = "Yann Staggl - Portfolio Website";

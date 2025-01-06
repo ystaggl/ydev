@@ -1,0 +1,28 @@
+﻿@page "/devtest"
+@using System.Collections.ObjectModel
+@inject IJSRuntime JSRuntime;
+
+<style>
+    html, body {
+        background: url('/Images/background.png');
+        background-size: cover;
+    }
+</style>
+
+
+
+<canvas id="myCanvas"></canvas>
+
+
+<PageTitle>@title</PageTitle>
+@code{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JSRuntime.InvokeVoidAsync("BackgroundCanvas", "myCanvas");
+    }
+}
+
+@code {
+    string title = "devtest";
+
+}
