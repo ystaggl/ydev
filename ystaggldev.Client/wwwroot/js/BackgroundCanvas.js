@@ -1,13 +1,21 @@
-﻿function BackgroundCanvas(id) {
+﻿
+function BackgroundCanvas(id) {
     let canvas = document.getElementById(id);
 
     if (canvas == null) {
         return false;
     }
 
-    let ctx = canvas.getContext("2d");
-    ctx.fillStyle = "red";
-    ctx.fillRect(10, 10, 20, 20);
-    ctx.fillStyle = "blue";
-    ctx.fillRect(20, 20, 20, 20);
+    var window_height = window.innerHeight;
+    var window_width = window.innerWidth;
+    canvas.height = window_height;
+    canvas.width = window_width;
+
+    let context = canvas.getContext("2d");
+
+    context.fillStyle = "red";
+    context.beginPath();
+    context.arc(90, 100, 5, 0, 2 * Math.PI);
+    context.fill();
+    context.closePath();
 }
