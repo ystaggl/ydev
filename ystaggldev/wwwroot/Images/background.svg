@@ -14,10 +14,35 @@
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       id="linearGradient9"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#d99365;stop-opacity:1;"
+         offset="0"
+         id="stop9" />
+      <stop
+         style="stop-color:#bb385c;stop-opacity:0;"
+         offset="1"
+         id="stop10" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9"
+       id="radialGradient10"
+       cx="3663.1807"
+       cy="-3823.0408"
+       fx="3663.1807"
+       fy="-3823.0408"
+       r="3684"
+       gradientTransform="matrix(0.77196766,0.00186796,-8.4599645e-4,0.34962572,856.22248,1345.7907)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#505050"
@@ -27,16 +52,24 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
-     inkscape:export-bgcolor="#212227ff"
-     inkscape:zoom="0.0625"
-     inkscape:cx="4664"
-     inkscape:cy="2264"
+     inkscape:export-bgcolor="#1a1c1eff"
+     inkscape:zoom="0.088388348"
+     inkscape:cx="5125.1099"
+     inkscape:cy="2834.084"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
+     inkscape:current-layer="svg1"
+     showguides="true" />
+  <rect
+     style="display:none;mix-blend-mode:color-dodge;fill:url(#radialGradient10);fill-opacity:1;fill-rule:nonzero"
+     id="rect2"
+     width="7368"
+     height="4128"
+     x="19.313709"
+     y="16" />
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -61,24 +94,186 @@
      id="path4"
      sodipodi:nodetypes="ccccc" />
   <rect
-     style="fill:#e2004a;stroke-width:0.826155"
+     style="display:none;fill:#e2004a;stroke-width:0.581251"
      id="rect1"
      width="7656"
-     height="70.983368"
+     height="35.136745"
      x="-136"
-     y="2512" />
+     y="2619.4802" />
   <rect
-     style="fill:#ffb000;fill-opacity:1;stroke-width:0.826155"
+     style="display:none;fill:#ffb000;fill-opacity:1;stroke-width:0.581251"
      id="rect1-8"
      width="7656"
-     height="70.983368"
+     height="35.136745"
      x="-172"
-     y="2582.9834" />
+     y="2654.6169" />
   <rect
-     style="fill:#419ec3;fill-opacity:1;stroke-width:0.826155"
+     style="display:none;fill:#419ec3;fill-opacity:1;stroke-width:0.581251"
      id="rect1-8-1"
      width="7656"
-     height="70.983368"
+     height="35.136745"
      x="-156.47533"
-     y="2653.8486" />
+     y="2689.6953" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10"
+     cx="1504.7233"
+     cy="1951.6147"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-6"
+     cx="863.99994"
+     cy="1360"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-7"
+     cx="2968"
+     cy="2240"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-5"
+     cx="6200"
+     cy="1256"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-8"
+     cx="6744"
+     cy="2216"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-3"
+     cx="4960"
+     cy="1936"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-50"
+     cx="6824"
+     cy="712.00006"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-35"
+     cx="3840"
+     cy="2248"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-64"
+     cx="3176"
+     cy="1464"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9"
+     cx="1112"
+     cy="2464"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-3"
+     cx="1400"
+     cy="1312"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-8"
+     cx="2176"
+     cy="2208"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-83"
+     cx="3088"
+     cy="1784"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-34"
+     cx="5960"
+     cy="2384"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-0"
+     cx="5136"
+     cy="1448"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-348"
+     cx="6640"
+     cy="1536"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-5"
+     cx="634"
+     cy="498"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7"
+     cx="536"
+     cy="2112"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-8"
+     cx="2416"
+     cy="1784"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-1"
+     cx="3640"
+     cy="2344"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-2"
+     cx="4032"
+     cy="1480"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-9"
+     cx="5728"
+     cy="2192"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-5"
+     cx="6296"
+     cy="1824"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-4"
+     cx="4720"
+     cy="2392"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-26"
+     cx="6200"
+     cy="824"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-46"
+     cx="7003"
+     cy="1697"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-9-7-19"
+     cx="973"
+     cy="701"
+     r="5" />
 </svg>
