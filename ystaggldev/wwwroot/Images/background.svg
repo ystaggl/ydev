@@ -53,9 +53,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:export-bgcolor="#1a1c1eff"
-     inkscape:zoom="0.088388348"
-     inkscape:cx="5125.1099"
-     inkscape:cy="2834.084"
+     inkscape:zoom="0.125"
+     inkscape:cx="3488"
+     inkscape:cy="1356"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -115,165 +115,387 @@
      x="-156.47533"
      y="2689.6953" />
   <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
      id="path10"
-     cx="1504.7233"
-     cy="1951.6147"
+     cx="1889.3893"
+     cy="1985.5558"
      r="5" />
   <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-6"
-     cx="863.99994"
-     cy="1360"
-     r="5" />
-  <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-7"
-     cx="2968"
-     cy="2240"
-     r="5" />
-  <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
      id="path10-5"
-     cx="6200"
-     cy="1256"
+     cx="690"
+     cy="486"
      r="5" />
   <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-8"
-     cx="6744"
-     cy="2216"
-     r="5" />
-  <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-3"
-     cx="4960"
-     cy="1936"
-     r="5" />
-  <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-50"
-     cx="6824"
-     cy="712.00006"
-     r="5" />
-  <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-35"
-     cx="3840"
-     cy="2248"
-     r="5" />
-  <circle
-     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
-     id="path10-64"
-     cx="3176"
-     cy="1464"
-     r="5" />
-  <circle
-     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
      id="path10-9"
-     cx="1112"
-     cy="2464"
+     cx="860"
+     cy="3541"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-53"
+     cx="474.99997"
+     cy="2059"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-8"
+     cx="2274"
+     cy="3937"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-2"
+     cx="3614"
+     cy="1686"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-6"
+     cx="3252"
+     cy="972"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-54"
+     cx="4967"
+     cy="3462"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-0"
+     cx="4378"
+     cy="1674"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-69"
+     cx="6879"
+     cy="3847"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-65"
+     cx="6347"
+     cy="3089"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-4"
+     cx="6856"
+     cy="2229"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-3"
+     cx="3803"
+     cy="3139"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-3-5"
+     cx="6030"
+     cy="1516"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-28"
+     cx="6709"
+     cy="305"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-1"
+     cx="2896"
+     cy="475"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-46"
+     cx="4503"
+     cy="600"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-03"
+     cx="2399"
+     cy="3304"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-93"
+     cx="4707"
+     cy="3982"
+     r="5" />
+  <circle
+     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
+     id="path10-96"
+     cx="3247.3279"
+     cy="2083.1765"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-3"
-     cx="1400"
-     cy="1312"
+     id="path10-87"
+     cx="5272"
+     cy="1380"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-8"
-     cx="2176"
-     cy="2208"
+     id="path10-87-5"
+     cx="1663"
+     cy="690"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-83"
-     cx="3088"
-     cy="1784"
+     id="path10-87-4"
+     cx="735"
+     cy="3213"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-34"
-     cx="5960"
-     cy="2384"
+     id="path10-87-0"
+     cx="4367"
+     cy="3451"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-0"
-     cx="5136"
-     cy="1448"
+     id="path10-87-3"
+     cx="1697"
+     cy="2082"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-348"
-     cx="6640"
-     cy="1536"
+     id="path10-87-52"
+     cx="5363"
+     cy="1640"
      r="5" />
   <circle
      style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-5"
-     cx="634"
-     cy="498"
+     id="path10-87-52-1"
+     cx="3717"
+     cy="2319"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-9"
+     cx="600"
+     cy="317"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-32"
+     cx="3179"
+     cy="3270"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-53"
+     cx="6471"
+     cy="3326"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-2"
+     cx="6686"
+     cy="882"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-03"
+     cx="2749"
+     cy="2421"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-31"
+     cx="3077"
+     cy="3496"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-00"
+     cx="5679"
+     cy="3190"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-56"
+     cx="2512"
+     cy="871"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-6"
+     cx="1199"
+     cy="2715"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-8"
+     cx="5046"
+     cy="645"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-7"
+     cx="6098"
+     cy="2942"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-05"
+     cx="3157"
+     cy="1663"
+     r="5" />
+  <circle
+     style="fill:#419ec3;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-49"
+     cx="4265"
+     cy="2693"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74"
+     cx="2444"
+     cy="1833"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-3"
+     cx="554"
+     cy="577"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-6"
+     cx="950"
+     cy="3530"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-4"
+     cx="4673"
+     cy="3485"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-61"
+     cx="2647"
+     cy="769"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-0"
+     cx="1414"
+     cy="2003"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-01"
+     cx="6042"
+     cy="2116"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-8"
+     cx="4254"
+     cy="305"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-08"
+     cx="4028"
+     cy="3009"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-47"
+     cx="6766"
+     cy="3734"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-00"
+     cx="2080"
+     cy="2744"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-014"
+     cx="7037"
+     cy="713"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-35"
+     cx="4265"
+     cy="939"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-67"
+     cx="4808"
+     cy="2127"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-62"
+     cx="1584"
+     cy="1245"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-5"
+     cx="2647"
+     cy="3258"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-59"
+     cx="6833"
+     cy="2874"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-2"
+     cx="4752"
+     cy="984"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-7"
+     cx="4152"
+     cy="2025"
+     r="5" />
+  <circle
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-31"
+     cx="5072"
+     cy="2872"
      r="5" />
   <circle
      style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7"
-     cx="536"
-     cy="2112"
+     id="path10-87-74-83"
+     cx="816"
+     cy="1288"
      r="5" />
   <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-8"
-     cx="2416"
-     cy="1784"
+     style="fill:#ffb000;fill-opacity:1;fill-rule:nonzero"
+     id="path10-87-74-595"
+     cx="3300"
+     cy="2612"
      r="5" />
   <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-1"
-     cx="3640"
-     cy="2344"
-     r="5" />
+     id="path11"
+     style="fill:#e2004a;stroke:#000000"
+     cx="4464"
+     cy="-984"
+     r="4.0274353" />
   <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-2"
-     cx="4032"
-     cy="1480"
-     r="5" />
-  <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-9"
-     cx="5728"
-     cy="2192"
-     r="5" />
-  <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-5"
-     cx="6296"
-     cy="1824"
-     r="5" />
-  <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-4"
-     cx="4720"
-     cy="2392"
-     r="5" />
-  <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-26"
-     cx="6200"
-     cy="824"
-     r="5" />
-  <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-46"
-     cx="7003"
-     cy="1697"
-     r="5" />
-  <circle
-     style="fill:#e2004a;fill-opacity:1;fill-rule:nonzero"
-     id="path10-9-7-19"
-     cx="973"
-     cy="701"
-     r="5" />
+     id="path12"
+     style="fill:#e2004a;stroke:#000000"
+     cx="4536"
+     cy="-1088"
+     r="4.0274353" />
 </svg>
