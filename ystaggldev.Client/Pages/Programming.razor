@@ -1,15 +1,11 @@
 @page "/projects"
-
-<style>
-    html, body {
-        background: url('/Images/background.png');
-        background-size: cover;
-    }
-</style>
+@inject IJSRuntime JSRuntime
 
 <PageTitle>Projects</PageTitle>
 
 
+<canvas style="z-index: 0; position: fixed" id="myCanvas"></canvas>
+<div style="z-index: 2" id="bodycontainer">
 <MudContainer Class="d-flex mt-10">
     <MudText Typo="Typo.h1" GutterBottom="true">Proj<span class="mud-secondary-text">ects</span></MudText>
 </MudContainer>
@@ -45,3 +41,10 @@
     </MudItem>
 </MudGrid>
 </MudContainer>
+</div>
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JSRuntime.InvokeVoidAsync("BackgroundCanvas", "myCanvas");
+    }
+}

@@ -1,11 +1,5 @@
 ﻿@page "/"
 @using BlazorTypewriter
-@using System
-@using System.Net
-@using System.IO
-@using System.Net.Http
-@inject HttpClient HttpClient
-@using System.Text.RegularExpressions
 <PageTitle>@title</PageTitle>
 
 <HeadContent>
@@ -13,13 +7,8 @@
     <link rel="icon" href="/favicon.ico">
 </HeadContent>
 
-<style>
-    html, body {
-        background: url('/Images/background.png');
-        background-size: cover;
-    }
-</style>
-<MudSpacer />
+
+
 
 <MudContainer Class="d-flex align-end justify-center" Style="height:30vh">
     <MudText Typo="Typo.h1">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
