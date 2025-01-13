@@ -1,4 +1,4 @@
-﻿ <MudContainer Elevation="1" Style="top: auto; bottom: 10%" Fixed="true">
+﻿ <MudContainer Elevation="1" Style="top: auto; bottom: 10%; position: relative; float: left" Fixed="true">
     <MudStack Row="true">
             <MudItem>
                 <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-20 gap-4" Typo="Typo.h4">ystaggl</MudText>
@@ -9,10 +9,11 @@
             </MudItem>
 
             <MudHidden Breakpoint="Breakpoint.Xl" Invert="true">
-            <MudItem Style="position:absolute; right:5%" Class="d-flex justify-end align-end">
-                <MudText Align="Align.Right" Class="d-flex justify-end flex-grow-1 mt-20 gap-4" Typo="Typo.h5">Contact me!</MudText>
-
-            </MudItem>
+                <MudItem Style="position:absolute; right:5%" Class="d-flex justify-end align-end">
+                    <a href="/Contact">
+                        <MudText Align="Align.Right" Class="d-flex justify-end flex-grow-1 mt-20 gap-4" Typo="Typo.h5">Contact me!</MudText>
+                    </a>
+                </MudItem>
             </MudHidden>
     </MudStack>
 </MudContainer>
