@@ -1,0 +1,50 @@
+@page "/projects"
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Projects</PageTitle>
+
+
+<canvas style="z-index: 0; position: fixed" id="myCanvas"></canvas>
+<div style="z-index: 2" id="bodycontainer">
+<MudContainer Class="d-flex mt-10">
+    <MudText Typo="Typo.h1" GutterBottom="true">Proj<span class="mud-secondary-text">ects</span></MudText>
+</MudContainer>
+
+<MudContainer Class="mt-5">
+<MudGrid>
+    <MudItem>
+        <ProjectShowcase namestart="ystaggl" namehighlight=".dev" link="https://github.com/ystaggl/ystaggl.dev" year="2024">
+            This is my first website! I created it as a learning experience
+            and to showcase my software. I built it in Blazor using the MudBlazor component library, and it's hosted on Azure App Services. Despite how early it is in development, I've already started learning a lot; I spent
+            about 2 days trying to use dependency injection
+            to get an HTTPClient for making web requests, it turns out the reason it wasn't working was actually because I didn't understand the component lifecycle, but I fixed it now. I've just started working on
+            SEO so that the search result isn't a complete mess, and after that I think I'm going to finally focus on styling a bit more.
+            Finally, I'm hoping to add a backend and an API for communication because that sounds like fun and I want to try implementing it for myself.
+        </ProjectShowcase>
+    </MudItem>
+    <MudItem>
+            <ProjectShowcase namestart="Pip" namehighlight="Py" link="https://github.com/ystaggl/PiP-for-MPV" year="2022">
+            PipPy is a program written in python that lets you run desktop windows in Picture-in-Picture mode, similar to the feature in most browsers that you might see while watching a
+            YouTube video. This is most useful for
+            watching local video in a desktop video player.
+            When running, it hides in the background waiting for a hotkey to be pressed. It then manipulates the Style Flags of the target window
+            using WinApi to make it floating, borderless, and pinned to the top of the screen.
+        </ProjectShowcase>
+    </MudItem>
+    <MudItem>
+        <ProjectShowcase namestart="Logi" namehighlight="Py" link="https://github.com/ystaggl/LogiPy" year="2022">
+            LogiPy is a python program that interfaces with the Logitech Lighting API, to allow the programatic customization of the RGB lights on logitech keyboards. 
+            As the API can only be used by one program at a time, it takes full control of it. It then acts somewhat like a message broker, allowing other programs to issue
+            lighting change commands over a local port, translating those commands and then sending them to the Logitech Lighting API. This means multiple different programs
+            can make changes to the lighting at the same time without conflicts over control of the API.
+        </ProjectShowcase>
+    </MudItem>
+</MudGrid>
+</MudContainer>
+</div>
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JSRuntime.InvokeVoidAsync("BackgroundCanvas", "myCanvas");
+    }
+}

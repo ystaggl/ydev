@@ -1,0 +1,12 @@
+﻿@Markup
+
+@code {
+    private string Markup;
+
+    [Parameter] required public string ChildContent { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        Markup = new MarkupString(ChildContent).Value.ToString();
+    }
+}

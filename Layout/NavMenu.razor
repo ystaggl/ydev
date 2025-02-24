@@ -1,0 +1,9 @@
+﻿<MudNavLink Class="@Class" Href="projects" Match="NavLinkMatch.Prefix">Projects</MudNavLink>
+<MudNavLink Class="@Class" Href="music" Match="NavLinkMatch.Prefix">Music</MudNavLink>
+<MudNavLink Class="@Class" Href="about" Match="NavLinkMatch.Prefix" >About</MudNavLink>
+
+
+@code {
+    [Parameter]
+    public string Class { get; set; } = "";
+}

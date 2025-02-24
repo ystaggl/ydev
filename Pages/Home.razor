@@ -1,0 +1,52 @@
+﻿@page "/"
+@using BlazorTypewriter
+<PageTitle>@title</PageTitle>
+
+<HeadContent>
+    <meta name="description" content="@description">
+    <link rel="icon" href="/favicon.ico">
+</HeadContent>
+
+
+
+
+<MudContainer Class="d-flex align-end justify-center" Style="height:30vh">
+    <MudText Typo="Typo.h1">ystaggl<span class="mud-secondary-text">.dev</span></MudText>
+</MudContainer>
+
+<MudContainer Class="d-flex align-center justify-center mt-5">
+    <MudText style="text-align: center" Typo="Typo.h4">check out my <span class="mud-secondary-text align-center"><Typewriter Builder="@typewriter" /></span></MudText>
+</MudContainer>
+<MudSpacer />
+
+
+@code {
+    private string title = "Yann Staggl - Portfolio Website";
+    private string description = "Yann Staggl is a software developer and guitarist based in Graz.";
+    
+    //string content;
+    //string result;
+
+
+    TypewriterBuilder typewriter = new TypewriterBuilder(defaultCharacterPause: 6)
+
+        .TypeString("programs", 100)
+
+        .Pause(3000)
+
+        .DeleteAll(80)
+
+        .TypeString("music", 100)
+
+        .Pause(3000)
+
+        .DeleteAll(80)
+
+        .TypeString("github", 100)
+
+        .Pause(3000)
+
+        .DeleteAll(80)
+
+        .Loop();
+}
