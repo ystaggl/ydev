@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ydev</title>
     <base href="/" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="ydev.styles.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
@@ -18,19 +16,28 @@
 
 <body>
     <div id="app">
-        <svg class="loading-progress">
-            <circle r="40%" cx="50%" cy="50%" />
-            <circle r="40%" cx="50%" cy="50%" />
-        </svg>
-        <div class="loading-progress-text"></div>
-    </div>
-
+        <div style="position:absolute; height:100%;width:100%;background-color: #1a1c1e">
+            <div style="position:absolute; top:26vh; width:100%; text-align:center;">
+                <h1 style="font-size: 96px; font-family: Roboto, Helvetica, Arial, 'sans-serif'; color:rgb(178, 176, 191);
+                font-weight:300; margin-bottom: 5px;">
+                    ystaggl<span style="color: rgb(190, 28, 86)">.dev</span>
+                </h1>
+                <h2 style="font-size: 48px; font-family: Roboto, Helvetica, Arial, 'sans-serif'; color:rgb(178, 176, 191);
+                font-weight:300">
+                    Loading...
+                </h2>
+            </div>
+        </div>
+    </div>  
+    
     <div id="blazor-error-ui">
         An unhandled error has occurred.
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
+
+    
 </body>
 
 </html>
