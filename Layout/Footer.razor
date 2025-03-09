@@ -1,7 +1,11 @@
-﻿ <MudContainer Elevation="1" Style="top: auto; bottom: 10%; position: relative; float: left" Fixed="true">
+﻿<MudContainer Style="top: auto; bottom: 10%; position: relative; float: left" Fixed="true">
     <MudStack Row="true">
             <MudItem>
-                <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-20 gap-4" Typo="Typo.h4">ystaggl</MudText>
+                
+                <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-20 gap-0" Typo="Typo.h4">
+                    <MudIcon Icon="@logo2" Size="Size.Large"/>
+                    ystaggl
+                    </MudText>
                 <MudText Align="Align.Left" Class="d-flex justify-start flex-grow-1 mt-2 gap-4" GutterBottom="true">amateur software developer; wannabe musician</MudText>
                 <div style="position:relative">
                 <MudStack Row="true">
@@ -36,3 +40,16 @@
             </MudHidden>
     </MudStack>
 </MudContainer>
+
+@code {
+const string logo = @"<svg style=""width:300px;height:300px"" viewBox=""0 0 300 300"">
+    <polygon fill=""currentColor"" points=""0,300 50,300 100.0,213.39745962155612 75.0,170.0961894323342""/>
+<polygon fill=""currentColor"" points=""70,300 210,300 140.0,178.7564434701786""/>
+<polygon fill=""currentColor"" points=""85.0,152.77568135664544 105.0,118.13466520526791 130.0,161.43593539448983 110.0,196.07695154586736""/>
+</svg>";
+const string logo2 = @"<svg style=""width:300px;height:300px"" viewBox=""0 0 300 300"">
+    <polygon fill=""currentColor"" points=""0,300 35,300 77.5,226.38784067832273 60.0,196.07695154586736""/>
+<polygon fill=""currentColor"" points=""53,300 193,300 123.0,178.7564434701786""/>
+<polygon fill=""currentColor"" points=""69.0,180.48849427774746 96.5,132.85709706960336 114.0,163.1679862020587 86.5,210.79938341020284""/>
+</svg>";
+}
