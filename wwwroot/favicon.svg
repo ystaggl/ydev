@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="260"
+   height="260"
+   viewBox="0 0 195.00005 195.00005"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <g
+     id="g3"
+     transform="translate(0,-118.07505)">
+    <polygon
+       points="62.5,191.74682 0,300 30,300 77.5,217.72759 "
+       style="fill:#ffffff"
+       id="polygon1" />
+    <polygon
+       points="195,300 120,170.09619 45,300 "
+       style="fill:#ffffff"
+       id="polygon2" />
+    <polygon
+       points="85,204.73721 70,178.75644 97.5,131.12505 112.5,157.10581 "
+       style="fill:#55ddff"
+       id="polygon3" />
+  </g>
+</svg>
